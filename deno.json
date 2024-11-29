@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "go": "deno run --allow-net --allow-read --allow-write --allow-env"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@supabase/supabase-js": "jsr:@supabase/supabase-js@^2.46.2",
+    "frad": "npm:frad@^0.3.1",
+    "pluralize": "npm:pluralize@^8.0.0",
+    "ts-morph": "npm:ts-morph@^24.0.0",
+    "zod": "npm:zod@^3.23.8"
+  },
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "types": ["./global.d.ts"]
+  }
+}

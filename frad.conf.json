@@ -1,0 +1,10 @@
+{
+  "savePreviousSelection": true,
+  "previousSelection": {},
+  "useTypescript": false,
+  "packageManager": "npm",
+  "cli.js": {
+    "models": true,
+    "zod": false
+  }
+}
