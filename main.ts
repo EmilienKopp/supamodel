@@ -12,10 +12,7 @@ const supabase = createClient(
 async function main() {
   Supamodel.setClient(() => supabase);
   const book = await Book.$find(1);
-  const copy = await book?.duplicate();
-  const copyOfCopy = await copy?.duplicate();
-  console.log(book,copy, copyOfCopy);
-
+  console.log(book);
 }
 
 main().then(() => console.log("Done!"));
